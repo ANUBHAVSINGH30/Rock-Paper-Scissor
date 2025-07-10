@@ -12,19 +12,22 @@ h1{
 }
 
 .choice{
-    height: 200px;
-    width: 200px;
+    height: 30vw;
+    width: 30vw;
+    max-width: 300px;
+    max-height: 300px;
 }
 
-img{
-    height: 190px;
-    width: 190px;
+.choice img{
+    height: 90%;
+    width: 90%;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .choices{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 5rem;
